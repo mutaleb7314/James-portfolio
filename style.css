@@ -53,17 +53,19 @@ header {
     margin-top: 34px;
 }
 
-.home .intro-box button {
-    padding: 14px 71px;
-    margin-top: 40px;
+.btn {
+    padding: 10px 40px;
+    border: 1px solid white;
     border-radius: 5px;
-    border: none;
+    margin-top: 20px;
+    width: 240px;
 }
 
-.home .intro-box button:hover {
-    background: purple;
+.btn:hover {
+    background-color: purple;
     color: white;
 }
+
 
 .block-two {
     display: grid;
@@ -89,19 +91,6 @@ header {
     padding-top: 32px;
     font-size: 20px;
     line-height: 1.4;
-}
-
-.block-two button {
-    padding: 10px 40px;
-    border: 1px solid white;
-    border-radius: 5px;
-    margin-top: 20px;
-    width: 240px;
-}
-
-.block-two button:hover {
-    background-color: purple;
-    color: white;
 }
 
 .block-two ul {
@@ -159,4 +148,29 @@ header {
     margin: 20px;
     font-size: 18px;
     text-align: center;
+}
+
+.block-four {
+    display: flex;
+    flex-direction: column;
+    background: purple;
+    color: #ccc;
+}
+
+.block-four h2 {
+    padding-top: 60px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.block-four p {
+    font-size: 20px;
+    margin: 50px auto;
+    width: 700px;
+    text-align: center;
+}
+
+.block-four button {
+    margin: 0 auto 60px auto;
 }
