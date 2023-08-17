@@ -64,3 +64,47 @@ header {
     background: purple;
     color: white;
 }
+
+.block-two {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    background: purple;
+    color: white;
+}
+
+.block-two div {
+    padding: 60px 20px;
+}
+.block-two h4 {
+    font-size: 24px;
+}
+
+.block-two h2 {
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.block-two p {
+    padding-top: 32px;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.block-two button {
+    padding: 10px 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 240px;
+}
+
+.block-two button:hover {
+    background-color: purple;
+    color: white;
+}
+
+.block-two ul {
+    font-size: 20px;
+    line-height: 1.4;
+}
