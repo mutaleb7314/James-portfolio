@@ -14,32 +14,20 @@ header {
 }
 
 .home {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 60px 20px;
     background: rgb(212, 133, 121);
-    width: 100%;
-    height: 864px;
-    position: relative;
-    z-index: 1;
 }
 
 .home img {
-    position: absolute;
-    z-index: 2;
-    width: 613px;
-    height: 734px;
+    padding: 60px 0 auto auto;
     border-radius: 20px;
     box-shadow: 4px 4px 5px #575757;
-    top: 60px;
-    right: 0;
 }
 
 .home .intro-box {
     color: purple;
-    position: absolute;
-    z-index: 3;
-    width: 707px;
-    height: 689px;
-    top: 80px;
-    left: 185px;
 }
 
 .home .intro-box h2 {
@@ -69,7 +57,7 @@ header {
 
 .block-two {
     display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-columns: repeat(3, 1fr);
     background: purple;
     color: white;
 }
@@ -114,14 +102,14 @@ header {
 .block-three #txt {
     font-size: 20px;
     line-height: 1.4;
-    width: 659px;
     margin: 20px auto;
     color: #ccc;
+    text-align: center;
 }
 
 .flex-box {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     padding-bottom: 60px;
 }
@@ -167,10 +155,44 @@ header {
 .block-four p {
     font-size: 20px;
     margin: 50px auto;
-    width: 700px;
     text-align: center;
 }
 
 .block-four button {
     margin: 0 auto 60px auto;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    .home {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 50px;
+    }
+    .home h2 {
+        padding-right: 20px;
+    }
+
+    .home img {
+        width: 300px;
+    }
+    .intro-box h2 {
+        font-size: 102px;
+    }
+    .block-two {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .block-two ul {
+        padding-left: 20px;
+    }
+    .flex-box {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .items img {
+        width: 360px;
+    }
 }
