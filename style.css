@@ -283,6 +283,31 @@ header {
 }
 
 
+.block-seven {
+    background: rgb(212, 133, 121);
+    padding: 60px 20px;
+    color: purple;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.block-seven h2 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.block-seven p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.block-seven form {
+    text-align: center;
+}
+
 
 
 @media screen and (max-width: 480px) {
