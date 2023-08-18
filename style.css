@@ -308,6 +308,74 @@ header {
     text-align: center;
 }
 
+.block-eight {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: rgb(212, 133, 121);
+}
+
+.block-eight .column-one-content {
+    padding: 60px 40px;
+    color: purple;
+
+}
+
+.block-eight .column-one-content h2 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.block-eight .column-one-content p {
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.block-eight .column-one-content form {
+    padding-top: 30px;
+}
+
+.block-eight .column-one-content input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px rgb(212, 133, 121);
+    border: none;
+}
+
+.block-eight .column-two-content {
+    background: purple;
+    padding: 60px 40px;
+}
+
+.block-eight .column-two-content p {
+    font-size: 22px;
+    padding-top: 46px;
+}
+
+.my {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: rgb(212, 133, 121);
+}
+
+.my img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.my h5 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.my h6 {
+    font-size: 18px;
+    padding-top: 13px;
+}
+
 
 
 @media screen and (max-width: 480px) {
@@ -347,5 +415,12 @@ header {
     .review-items {
         display: grid;
         grid-template-columns: auto;
+    }
+    .block-eight {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .my {
+        flex-direction: column;
     }
 }
