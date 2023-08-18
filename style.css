@@ -224,6 +224,65 @@ header {
     margin-top: 40px;
 }
 
+.block-six {
+    background: purple;
+}
+
+.block-six h2 {
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 60px;
+    text-align: center;
+    color: #ccc;
+}
+
+.review-items {
+    padding: 40px 20px 60px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.review-items .review-item {
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px #575757;
+    background: #fff;
+
+}
+
+.review-items .review-item i {
+    color: rgb(212, 133, 121);
+    font-size: 43px;
+}
+
+.review-items .review-item p {
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.reviewer {
+    padding-top: 26px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.reviewer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.reviewer div h5 {
+    font-size: 20px;
+    font-weight: bold;
+    color: purple;
+    padding-bottom: 7px;
+}
+
+
 
 
 @media screen and (max-width: 480px) {
@@ -257,6 +316,10 @@ header {
         width: 360px;
     }
     .block-five {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .review-items {
         display: grid;
         grid-template-columns: auto;
     }
