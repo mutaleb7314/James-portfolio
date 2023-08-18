@@ -162,6 +162,67 @@ header {
     margin: 0 auto 60px auto;
 }
 
+.block-five {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background: rgb(212, 133, 121);
+    padding: 60px 20px;
+    gap: 30px;
+}
+
+.block-five .personal-info {
+    background: purple;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 60px 20px;
+    color: #f1f1f1;
+}
+
+.block-five .personal-info h6 {
+    font-size: 14px;
+}
+
+.block-five .personal-info p, i {
+    padding: 12px 1px;
+    font-size: 18px;
+}
+
+.experience-info .counter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.experience-info .counter p {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 27px;
+}
+
+.experience-info .counter span {
+    font-size: 72px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.experience-info h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: purple;
+    padding-top: 60px;
+}
+
+.experience-info p {
+    font-size: 18px;
+    color: purple;
+    padding-top: 40px;
+    line-height: 2;
+}
+
+.experience-info button {
+    margin-top: 40px;
+}
 
 
 
@@ -194,5 +255,9 @@ header {
     }
     .items img {
         width: 360px;
+    }
+    .block-five {
+        display: grid;
+        grid-template-columns: auto;
     }
 }
